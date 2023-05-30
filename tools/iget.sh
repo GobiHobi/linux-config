@@ -1,4 +1,6 @@
 #!/bin/bash
+# Use case
+# ./x.sh $(./iget.sh 0)
 
 # Check if there are any command line arguments
 if [ $# -eq 0 ]; then

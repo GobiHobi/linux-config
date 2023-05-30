@@ -1,8 +1,8 @@
 #!/bin/bash
-docs="https://docs.google.com/document/d/1y6hnrlTUuzqfdGC-XWjXSNaBXLxc1fv00BvBaC5o87M/edit"
-github="https://github.com/GobiHobi/linux-config"
-bard="https://bard.google.com/"
 
-echo $docs
-echo $github
-echo $bard
+# searches for file with a certain string and if there isn't any then append that string to the top of the file
+for file in *; do
+  if ! grep -q '^#!/bin/bash' "$file"; then
+    sed -i '1i#!/bin/bash' "$file"
+  fi
+done

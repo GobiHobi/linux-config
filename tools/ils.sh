@@ -12,10 +12,10 @@ index=0
 # Loop through the list of files
 for file in "${files[@]}"; do
 
-  # Increment the index variable
-  index=$(( index + 1 ))
-
   # Print the index and the filename
   echo "$index $file"
+  
+  # Increment the index variable
+  index=$(( index + 1 ))
 
 done

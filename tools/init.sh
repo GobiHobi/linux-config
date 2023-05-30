@@ -2,6 +2,7 @@
 if [ $# -eq 0 ]; then
   echo "The links"
 else
+  # preferably put 'i' in the cmdline arg
   git init
 fi 
 docs="https://docs.google.com/document/d/1y6hnrlTUuzqfdGC-XWjXSNaBXLxc1fv00BvBaC5o87M/edit"
