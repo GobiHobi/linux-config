@@ -13,4 +13,3 @@ echo $docs
 echo $github
 echo $bard
 
-source aliases.sh
