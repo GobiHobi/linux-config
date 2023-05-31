@@ -13,3 +13,5 @@ echo $docs
 echo $github
 echo $bard
 
+echo "alias cig=\$(./cig.sh -p 0) alias cil=\$(./cig.sh -p 1)"
+

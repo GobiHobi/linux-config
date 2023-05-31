@@ -7,6 +7,10 @@ I myself enjoy having commands and tools being at max 3 characters long. Of cour
 2. have a form of index listing
 3. open source the information
 
+## Names
+cig <cody index get (path)>
+cil <cody index list
+
 ## Language
 The basics of language is thought to be the symbols and words relating to the menaings regarding who, what, where, why, and how.
 
@@ -27,3 +31,4 @@ Phonology: how words sound
 Syntax: how words are combined to make sense - grammar
 Semantics: what the words mean and can be structured to support meaning
 Pragmatics: how words and phrases are expressed in context
+
