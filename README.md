@@ -9,7 +9,12 @@ I myself enjoy having commands and tools being at max 3 characters long. Of cour
 
 ## Names
 cig <cody index get (path)>
-cil <cody index list
+cil <cody index list>
+
+## Adding Scripts to Usr Bin
+Linux continues to surprise me with it's ease of use. In Japan I realized that I have been lacking in motivation and dicipline. Because of this my goals have veen ill defined and life has been lackluster.
+- init.sh: cp scripts within config/tools and cp them to $PATH.
+  - SIMILAR TO PS
 
 ## Language
 The basics of language is thought to be the symbols and words relating to the menaings regarding who, what, where, why, and how.
