@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [$# -le 1]; then
+if [$# -eq 1]; then
 	echo if
 	git add .
 	git commit -m $1
