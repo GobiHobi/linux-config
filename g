@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [$# -lt 2]; then
+if [ $# -lt 2 ]; then
 	echo if
 	git add .
 	git commit -m $1
